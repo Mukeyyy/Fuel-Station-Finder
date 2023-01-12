@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fuel Station Finder</title>
+  </head>
+  <body>
+    <h1>Fuel Station Finder</h1>
+    <p>Enter your location to find the nearest fuel station:</p>
+    <form>
+      <label for="Area">Area:</label><br>
+      <input type="text" id="zipcode" name="zipcode"><br>
+      <input type="submit" value="Find Fuel Stations">
+    </form> 
+    <h2>Fuel Station Results:</h2>
+    <table>
+      <tr>
+        <th>Location</th>
+        <th>Availability</th>
+      </tr>
+      <tr>
+        <td>123 Main St</td>
+        <td>Full Service</td>
+      </tr>
+      <tr>
+        <td>456 Park Ave</td>
+        <td>Self Service</td>
+      </tr>
+      <tr>
+        <td>789 Market St</td>
+        <td>Out of Service</td>
+      </tr>
+    </table>
+  </body>
+</html>

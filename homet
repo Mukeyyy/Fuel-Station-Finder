@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fuel Station</title>
+    <link rel="stylesheet" href= "Home.css">
+  </head>
+  <body>
+    <h1>Fuel Station</h1>
+    <p>Enter your location to find the nearest fuel station:</p>
+    <form>
+      <label for="Area">Area:</label><br>
+      <input type="text" id="zipcode" name="zipcode"><br>
+      <input type="submit" value="Find Fuel Stations">
+    </form> 
+    <h2>Fuel Station Results:</h2>
+    <table>
+      <tr>
+        <th>Location</th>
+        <th>Availability</th>
+      </tr>
+      <tr>
+        <td>TOTAL ENERGIES</td>
+        <td>Full Service</td>
+      </tr>
+      <tr>
+        <td>OANDO </td>
+        <td>Self Service</td>
+      </tr>
+      <tr>
+        <td>NNPC</td>
+        <td>Out of Service</td>
+      </tr>
+    </table>
+  </body>
+</html>

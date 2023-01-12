@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Raleway', sans-serif, poppins;
+
+}
+
+.handwritten {
+    font-family: 'Marck Script', cursive;
+    font-size: 60px;
+}
+
+.btn-danger {
+    /* background-color: blue; */
+    border-radius: 50px;
+}
+
+.btn-black{
+    color: #fff;
+    background-color: #000;
+    border-radius: 0;
+}
+
+.btn-black:hover{
+    color: #000;
+    background-color: #fff;
+}
+.contain {
+    background-color: #fafafa;
+}
+
+.parent {
+    display: flex;
+}
+
+.bg-img {
+    background: url(../images/Light_bulb.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.sm-img{
+    background: url(../images/undraw_lightbulb_moment_re_ulyo\ 1.svg);
+    background-repeat: no-repeat;
+    top: 5rem;
+    left: 7rem;
+    
+}
+.pointers {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.pointer {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.point {
+    background-color: #e9ecef;
+    width: 35rem;
+}
+
+.aboutus {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.text-black {
+    color: #000;
+    font-weight: bold;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.mt-center {
+    margin-top: 50%;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.bold {
+    font-weight: bold;
+    /* font-size: 1.54rem; */
+}
+
+.ml-6 {
+    display: none;
+}
+
+.link {
+    color: #fff;
+}
+
+.link:hover {
+    color: aliceblue;
+}
+
+.btn-primary {
+    background-color: #6C63FF;
+    border-color: #6c63ff;
+}
+
+.btn-indigo {
+    background-color: #6C63FF;
+    border-color: #6c63ff;
+    color: #fff;
+    border-radius: 45px;
+}
+
+.bg-indigo {
+    background-color: #6C63FF;
+    color: #fff;
+}
+
+.shadow {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.social {
+    border-radius: 50px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    height: 2rem;
+    width: 2rem;
+}
+
+.text {
+    color: #6C63FF;
+}
+
+.social:hover {
+    border-radius: 50px;
+    box-shadow: 0 5px 0 rgba(66, 103, 78, 0.5);
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.bg-mute {
+    background-color: #e9ecef;
+}
+
+/* .jumbotron {
+    background-color: #fbfbfd;
+} */
+
+.mobile-hide {
+    display: block;
+}
+.sm-text{
+    font-size: small;
+}
+.t-hide {
+    display: none;
+}
+.navibar-dark{
+    background-color: #000;
+}
+.footer{
+    background-color: #161D30;
+}
+.float-container{
+    border: 0;
+    padding: 0;
+}
+.float-child{
+    float: left;
+    padding: 2rem;
+    border: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    position: -webkit-sticky;
+    position: sticky;
+    /* sticky or fixed are fine */
+    position: fixed;
+    top: 0;
+    height: 69px;
+    width: 100%;
+    background: linear-gradient(to bottom, #000, #0003 70%,#0000); /* background when scroll is in the top */
+    transition: background .5s; /* control how smooth the background changes */
+  }
+  
+  nav.scrolled {
+    background: #0a0a0a;
+  }
+  
+  main {
+    height: 200vh;
+  }
+
+  input[type="text"]{
+    outline: 0;
+    height:40px;
+    width: 80%;
+    padding: 1rem 2rem; /*1rem(top-bottom) 2rem(left-right)*/
+
+  }
+
+  input[type="button"]{
+    background-color: #000;
+    color: #fff;
+    margin-left: -8.7rem;
+    margin-top: 0.15rem;
+    height: 35px;
+    padding: 0 2rem
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #fff; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 45%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  #myBtn:hover {
+    border-radius: 50px;
+    box-shadow: 0 5px 0 rgba(66, 103, 78, 0.5);
+  }
+
+@media only screen and (max-width: 480px) {
+    .mobile-hide {
+        display: none;
+    }
+
+    .t-hide {
+        display: none;
+    }
+
+    .mobile-t {
+        margin-top: -3rem;
+    }
+
+    .mar-left {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .ml-6 {
+        display: block;
+        margin-left: 6.8rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    
+    .md-text{
+        font-size: large;
+    }
+}
+@media only screen and (max-width:768px){
+    .bg-img{
+        background-image: url(../images/Light_bulb.svg);
+    }
+    input[type=text]{
+        padding: 1rem;
+    }
+    #img{
+        height: 4rem;
+        width: 5rem;
+    }
+    
+    
+    input[type="button"]{
+        margin-left:0;
+        height:40px;
+        margin-top: 0rem;
+    }
+    
+}
+
+

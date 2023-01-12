@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page | PetroMap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- <div>
+        <nav >
+
+            <div class="topnav" >
+                <!- <div>
+                    <p class="text-white">PetOnMap</p>
+                </div> ->
+                <div  style="margin-left: 60rem;">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                </div>
+                
+              </div>
+        </nav>
+    </div> -->
+
+    <div class="container">
+        <p class="text-center">
+            <div class="col-md">
+                <h1>FeulBox</h1>
+                <form class="form-group">
+                    <label for="location">Enter your location:</label><br>
+                    <input type="text" name="location" placeholder="Enter Location" class="form-control"><br>
+                    <input type="submit" value="Search" class="btn btn-primary">
+                </form>
+                <!-- <div  id="googleMap" style="width:100%;height:400px;"></div> -->
+            </div>
+        </p>
+
+        <div class="col-md">
+            <div class="mt" >
+                <div class="frame">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d37494.44900904928!2d7.423408883142709!3d8.961230004533416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spetrol%20stations%20near%20Nile%20University!5e0!3m2!1sen!2sng!4v1672495822384!5m2!1sen!2sng"
+                    width="0" height="0" style="border:0; height: 40rem; width: 70rem; margin-left: 0rem;"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="shadow"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <div id="googleMap" style="width:100%;height:50rem;"></div> -->
+
+    <!-- <script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script> -->
+
+<script>
+    function myMap() {
+      var mapProp= {
+        center:new google.maps.LatLng(12.9716, 77.5946),
+        zoom:10,
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+      google.maps.event.addListener(map, 'click', function(e) {
+        placeMarker(e.latLng, map);
+        document.getElementById("latitude").value = e.latLng.lat();
+        document.getElementById("longitude").value = e.latLng.lng();
+      });
+
+      function placeMarker(position, map) {
+        var marker = new google.maps.Marker({
+          position: position,
+          map: map
+        });
+        map.panTo(position);
+      }
+
+    }
+</script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key= strong-keyword-373911&callback=myMap"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+body{
+    background-color: #0d1117;
+}
+.texty{  
+    border-top: 1px solid;
+    border-radius: .3000rem;
+    border: none;
+    height:32px;
+    border-color: #c9d1d9;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    width: 280px;
+    background-color: #0d1117;
+    color: whitesmoke;
+    border-width: 0.1px;
+}
+.hum{
+    border-radius: .3000rem;
+    border: none;
+    background-color: #238636;
+    height: 32px;
+    color: white;
+    width: 280px;
+    margin-top: -5%;
+}
+form{
+    display:grid;
+    justify-content: center;
+}
+.fo{    
+    display:grid;
+    justify-content:center ;
+    margin-top: 0;
+    padding: 30px;
+    background-color: #161b22;
+    margin: auto;
+    width: 260px;
+    border-radius: .2500rem;
+    height: 35vh;
+    border-color: #ffffff;
+}
+.container{
+    display:grid;
+    place-items:center ;
+    height:25vh;
+    background-color:#0d1117 ;
+    width: 320px;
+    margin: auto;
+}
+#ye{
+      color: #c9d1d9;
+      font-size: 13px;
+      margin-top: -2%;
+      margin-bottom: 0%;
+      font-family: Arial, Helvetica, sans-serif;
+}
+#yen{
+      color: #c9d1d9;
+      font-size: 13px;
+      margin-top: -2%;
+      margin-bottom: 0%;
+      font-family: Arial, Helvetica, sans-serif;
+}
+#y{
+    color: #c9d1d9;
+    font-size: 13px;
+    margin-top: -2%;
+    margin-bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yes{
+    display:grid;
+    place-items:center ;
+    height:20vh;
+    background-color: #0d1117;
+    margin: auto;
+    width: 410px;
+}
+.okay{
+    display:flex;
+    flex-direction: row;
+}
+.okay label {
+    margin-left: 40%;
+}
+.okay label a{
+    color: #388bfd;
+    text-decoration: none;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    margin-top: 8%;
+    margin-bottom: -4%;
+}
+h1{
+    color: #c9d1d9;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: var(--base-text-weight-light, 300);
+    letter-spacing: -0.5px;
+    margin-bottom: 2%;
+    line-height: 1.5;
+}
+.acc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: -7%;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #c9d1d9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.acc label{
+    margin-left: 2%;
+}
+.acc label a{
+    text-decoration: none;
+    color: #388bfd;
+}
